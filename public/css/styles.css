@@ -1,0 +1,207 @@
+.add-button-container {
+  width: 80%;
+  margin: 40px auto 0;
+  text-align: right;
+}
+
+.add-button {
+  padding: 10px 25px;
+  gap: 8px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #1abc9c;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.add-button:hover {
+  background-color: #159d82;
+}
+
+.add-button i {
+  font-size: 18px;
+}
+
+.form-container {
+  margin: 60px auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  display: block;
+}
+
+input[ type="text" ], input[ type="tel" ] {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.button-group {
+  margin-top: 10px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.save-btn {
+  flex: 1;
+  padding: 12px 20px;
+  gap: 8px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  background-color: #1abc9c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.save-btn:hover {
+  background-color: #159d82;
+}
+
+.back-button {
+  flex: 1;
+  padding: 12px 20px;
+  gap: 8px;
+  font-size: 18px;
+  color: #1abc9c;
+  border: 2px solid #1abc9c;
+  border-radius: 6px;
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.error {
+  margin-bottom: 15px;
+  padding: 10px;
+  color: #721c24;
+  border-radius: 10px;
+  background: #f8d7da;
+}
+
+.details-container {
+  margin: 60px auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.detail-item {
+  margin-bottom: 20px;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.detail-value {
+  margin-top: 5px;
+  font-size: 18px;
+}
+.back-button:hover {
+  background-color: #159d82;
+}
+
+.back-button-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.back-button i {
+  font-size: 18px;
+}
+
+.student-table {
+  margin: 40px auto;
+  width: 80%;
+  background-color: white;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 8px;
+  text-align: left;
+  border: 2px solid #dddddd;
+}
+
+th {
+  background-color: #dddddd;
+}
+th:first-child, td:first-child {
+  width: 50px;
+  text-align: center;
+}
+
+th:last-child, td:last-child {
+  width: 120px;
+  text-align: center;
+}
+
+.actions {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 18px;
+  border: none;
+  background: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.btn-view {
+  color: #2ecc71;
+}
+
+.btn-edit {
+  color: #3498db;
+}
+
+.btn-delete {
+  color: #e74c3c;
+}
+

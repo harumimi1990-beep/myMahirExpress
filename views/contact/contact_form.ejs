@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/contacts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Font Awesome For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title><%= title %></title>
+  </head>
+  <body>
+    <div class="header">
+      <h1><%= title %></h1>
+      <p><%= content %></p>
+    </div>
+    <div class="form-container">
+        <form action="<%=formAction %>" method="POST">
+            <label for="name">Name</label>
+            <input
+                type="text"
+                name="name"
+                placeholder="Enter full name"
+                value="<%=''%>"
+            />
+            <label for="phone">Phone No.</label>
+            <input
+                type="text"
+                name="phone"
+                placeholder="Enter phone number"
+                value="<%=''%>"
+            />
+            <div class="button-group">
+                <button type="submit" class="save-btn">
+                    <i class="fa-solid fa-floppy-disk"></i>Save
+                </button>
+
+            <a href="/contacts" class="back-button">
+                <i class="fa-solid fa-arrow-left"></i>Back
+            </a>
+            </div>
+        </form>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+.details-container {
+  margin: 60px auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.detail-item {
+  margin-bottom: 20px;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.detail-value {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+
+.back-button {
+  margin: 0px auto;
+  padding: 10px 25px;
+  gap: 8px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #1abc9c;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.back-button:hover {
+  background-color: #159d82;
+}
+
+.back-button-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.back-button i {
+  font-size: 18px;
+}

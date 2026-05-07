@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/header.css" />
+    <!-- <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/contacts.css" /> -->
+    <link rel="stylesheet" href="/css/details.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Font Awesome For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title><%= title %></title>
+  </head>
+  <body>
+    <div class="header">
+      <h1><%= title %></h1>
+      <p><%= content %></p>
+    </div>
+
+    <div class="details-container">
+        <div class="details-container">
+            <div class="detail-item">
+                <div class="detail-label"> Name </div>
+                <div class="detail-value"><%= user.name %></div>
+            </div>
+
+            <div class="detail-item">
+                <div class="detail-label"> User Number </div>
+                <div class="detail-value"><%= user.phone %></div>
+            </div>
+
+            <div class="detail-item">
+                <div class="detail-label"> Email </div>
+                <div class="detail-value"><%= user.email %></div>
+            </div>
+
+            <!-- <div class="detail-item">
+                <div class="detail-label"> User Status </div>
+                <div class="detail-value"><%= user.type %></div>
+            </div> -->
+        </div>
+    </div>
+
+        <!-- Back Button -->
+    <div class="back-button-container">
+        <a href="/users" class="back-button">
+            <i class="fa-solid fa-arrow-left"></i> Back
+        </a>
+     </div>
+
+  </body>
+</html>
